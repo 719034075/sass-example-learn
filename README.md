@@ -2,7 +2,7 @@
 sass样例学习
 
 1. ./start/use variables
-
+2. ./start/nested css rules
 
 **Sass**是基于**Ruby**语言开发而成的，因此安装Sass前需要Ruby环境。
 
