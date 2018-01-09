@@ -1,0 +1,11 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/web\/sass-example-learn\/start\/5\.Mixer\/sass\/input\.scss}line{font-family:\000037}}
+notice { background-color: green; border: 2px solid #00aa00; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/web\/sass-example-learn\/start\/5\.Mixer\/sass\/input\.scss}line{font-family:\0000319}}
+a { color: blue; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/web\/sass-example-learn\/start\/5\.Mixer\/sass\/input\.scss}line{font-family:\0000316}}
+a:hover { color: red; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/web\/sass-example-learn\/start\/5\.Mixer\/sass\/input\.scss}line{font-family:\0000317}}
+a:visited { color: green; }
+
+/*# sourceMappingURL=output.css.map */
