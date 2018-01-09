@@ -6,6 +6,7 @@ sass样例学习
 3. ./start/import css files
 4. ./start/comments
 5. ./start/mixer
+6. ./start/extend
 
 **Sass**是基于**Ruby**语言开发而成的，因此安装Sass前需要Ruby环境。
 
