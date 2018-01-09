@@ -1,0 +1,13 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/web\/sass-example-learn\/start\/6\.Extend\/sass\/input\.scss}line{font-family:\000031}}
+.error, .seriousError { border: 1px solid red; background-color: #fdd; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/web\/sass-example-learn\/start\/6\.Extend\/sass\/input\.scss}line{font-family:\000035}}
+.error a, .seriousError a { color: red; font-weight: 100; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/web\/sass-example-learn\/start\/6\.Extend\/sass\/input\.scss}line{font-family:\000039}}
+h1.error, h1.seriousError { font-size: 1.2rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/web\/sass-example-learn\/start\/6\.Extend\/sass\/input\.scss}line{font-family:\0000313}}
+.seriousError { border-width: 4px; }
+
+/*# sourceMappingURL=output.css.map */
