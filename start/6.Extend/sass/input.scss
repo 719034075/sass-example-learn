@@ -14,3 +14,18 @@ h1.error {
   @extend .error;
   border-width: 4px;
 }
+
+// This ruleset won't be rendered on its own.
+#context a%extreme {
+  color: blue;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+h1.notice {
+  @extend %extreme;
+}
+
+a.important {
+  @extend .notice !optional;
+}
