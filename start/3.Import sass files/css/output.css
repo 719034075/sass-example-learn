@@ -1,7 +1,12 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/web\/sass-example-learn\/start\/3\.Import\%20sass\%20files\/sass\/_blue-theme\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/web\/sass-example-learn\/start\/3\.Import\%20sass\%20files\/sass\/input\.scss}line{font-family:\000034}}
+a { color: red; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/web\/sass-example-learn\/start\/3\.Import\%20sass\%20files\/sass\/_blue-theme\.scss}line{font-family:\000033}}
+.blue-theme nav { width: 200px; color: #F90; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/web\/sass-example-learn\/start\/3\.Import\%20sass\%20files\/sass\/_blue-theme\.scss}line{font-family:\000038}}
 .blue-theme aside { background: blue; color: white; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/web\/sass-example-learn\/start\/3\.Import\%20sass\%20files\/sass\/input\.scss}line{font-family:\000034}}
-.blue-theme aside { background: blue; color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/web\/sass-example-learn\/start\/3\.Import\%20sass\%20files\/sass\/input\.scss}line{font-family:\0000312}}
+.selected { border: #F90; }
 
 /*# sourceMappingURL=output.css.map */

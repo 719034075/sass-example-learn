@@ -1,8 +1,14 @@
+$link-color: blue;
+$link-color: red;
+$width:200px;
+a {
+  color: $link-color;
+}
 .blue-theme {@import "blue-theme";}
 
-.blue-theme {
-  aside {
-    background: blue;
-    color: #fff;
-  }
+
+$highlight-color: #F90;
+$highlight-color: #F80 !default;
+.selected {
+  border: $highlight-color;
 }
