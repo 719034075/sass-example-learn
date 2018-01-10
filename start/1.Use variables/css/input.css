@@ -1,0 +1,13 @@
+nav {
+  width: 100px;
+  color: #F90;
+  border: 1px solid black;
+  font-family: "Times New Roman", Georgia, Serif; }
+
+.selected {
+  border: 1px solid #F80; }
+
+a {
+  color: blue; }
+
+/*# sourceMappingURL=input.css.map */

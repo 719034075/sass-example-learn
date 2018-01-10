@@ -45,9 +45,17 @@ sass -v
 sass编译有很多种方式，如命令行编译模式、sublime插件`SASS-Build`、编译软件`koala`、前端自动化软件`codekit`、`Grunt`打造前端自动化工作流`grunt-sass`、`Gulp`打造前端自动化工作流`gulp-ruby-sass`等。
 
 
-我的命令行编译
+## 我的命令行编译
 
 ```cmd
 // 监听单文件input.scss，导出output.css；编译排版类型compact；增加调试map；开启debug信息。
 sass --watch  ../sass/input.scss:./output.css --style compact --sourcemap --debug-info
 ```
+
+## 在webstorm下的sass监听器
+
+新建完一个`*.sass`文件之后，在webstorm窗体的上方会弹出一个提示。
+> Enable File Watcher to Complie SCSS to CSS?  Yes/No
+
+一般来说我们期望把scss和css分开在两个文件夹中。那么只要在`Arguments`中的`--no-cache --update $FileName$:$FileNameWithoutExtension$.css`改成`--no-cache --update $FileName$:$FileParentDir$\css\$FileNameWithoutExtension$.css`即可。
+这样的话，生成的css文件就会在css目录下了。
