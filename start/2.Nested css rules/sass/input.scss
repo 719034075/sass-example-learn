@@ -1,44 +1,68 @@
 #content {
   article {
-    h1 { color: #333 }
-    p { margin-bottom: 1.4em }
+    h1 {
+      color: #333
+    }
+    p {
+      margin-bottom: 1.4em
+    }
   }
-  aside{ background-color: #EEE }
+  aside {
+    background-color: #EEE
+  }
 }
 
 #error a {
   color: blue;
-  :hover { color: red }
+  :hover {
+    color: red
+  }
 }
 
 #success a {
   color: blue;
-  &:hover { color: red }
+  &:hover {
+    color: red
+  }
 }
 
 #content aside {
   color: red;
-  body.ie & { color: green }
+  body.ie & {
+    color: green
+  }
 }
 
 .container {
-  h1, h2, h3 {margin-bottom: .8em}
+  h1, h2, h3 {
+    margin-bottom: .8em
+  }
 }
 
 article {
-  ~ article { border-top: 1px dashed #ccc }
-  > section { background: #eee }
-  dl > {
-    dt { color: #333 }
-    dd { color: #555 }
+  ~ article {
+    border-top: 1px dashed #ccc
   }
-  nav + & { margin-top: 0 }
+  > section {
+    background: #eee
+  }
+  dl > {
+    dt {
+      color: #333
+    }
+    dd {
+      color: #555
+    }
+  }
+  nav + & {
+    margin-top: 0
+  }
 }
 
 nav {
   border: {
-  style: solid;
-  width: 1px;
-  color: #ccc;
+    style: solid;
+    width: 1px;
+    color: #ccc;
   }
 }

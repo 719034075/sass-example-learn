@@ -1,8 +1,32 @@
 @charset "UTF-8";
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/web\/sass-example-learn\/start\/4\.Comments\/sass\/input\.scss}line{font-family:\000032}}
-body { color: #333; padding: 0; /* 这种注释内容会出现在生成的css文件中 */ }
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/F\:\/web\/sass-example-learn\/start\/4\.Comments\/sass\/input\.scss
+    }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/web\/sass-example-learn\/start\/4\.Comments\/sass\/input\.scss}line{font-family:\000038}}
-div { color: #333; padding: 1 0; }
+    line {
+        font-family: \000032
+    }
+}
+
+body {
+    color: #333;
+    padding: 0; /* 这种注释内容会出现在生成的css文件中 */
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/F\:\/web\/sass-example-learn\/start\/4\.Comments\/sass\/input\.scss
+    }
+
+    line {
+        font-family: \000038
+    }
+}
+
+div {
+    color: #333;
+    padding: 1 0;
+}
 
 /*# sourceMappingURL=output.css.map */

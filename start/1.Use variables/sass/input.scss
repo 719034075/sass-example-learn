@@ -1,16 +1,16 @@
-$nav-color:#F90;
+$nav-color: #F90;
 $basic-border: 1px solid black;
-$plain-font: "Times New Roman",Georgia,Serif;
+$plain-font: "Times New Roman", Georgia, Serif;
 $highlight-color: #F90;
 $highlight-border: 1px solid $highlight-color;
 $link-color: blue;
 
-nav{
-    $width:100px;
-    width:$width;
-    color:$nav-color;
-    border:$basic-border;
-    font-family:$plain-font;
+nav {
+  $width: 100px;
+  width: $width;
+  color: $nav-color;
+  border: $basic-border;
+  font-family: $plain-font;
 }
 
 .selected {

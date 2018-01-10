@@ -1,10 +1,46 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/web\/sass-example-learn\/start\/1\.Use\%20variables\/sass\/input\.scss}line{font-family:\000038}}
-nav { width: 100px; color: #F90; border: 1px solid black; font-family: "Times New Roman", Georgia, Serif; }
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/F\:\/web\/sass-example-learn\/start\/1\.Use\%20variables\/sass\/input\.scss
+    }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/web\/sass-example-learn\/start\/1\.Use\%20variables\/sass\/input\.scss}line{font-family:\0000316}}
-.selected { border: 1px solid #F90; }
+    line {
+        font-family: \000038
+    }
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/web\/sass-example-learn\/start\/1\.Use\%20variables\/sass\/input\.scss}line{font-family:\0000320}}
-a { color: blue; }
+nav {
+    width: 100px;
+    color: #F90;
+    border: 1px solid black;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/F\:\/web\/sass-example-learn\/start\/1\.Use\%20variables\/sass\/input\.scss
+    }
+
+    line {
+        font-family: \0000316
+    }
+}
+
+.selected {
+    border: 1px solid #F90;
+}
+
+@media -sass-debug-info {
+    filename {
+        font-family: file\:\/\/F\:\/web\/sass-example-learn\/start\/1\.Use\%20variables\/sass\/input\.scss
+    }
+
+    line {
+        font-family: \0000320
+    }
+}
+
+a {
+    color: blue;
+}
 
 /*# sourceMappingURL=output.css.map */
